@@ -730,7 +730,7 @@ h3(#s6-4-finalizers). 6.4 ファイナライザは使わない。
 
 @Object@ クラスの @finalize()@ メソッドをオーバーライドするケースは非常に稀である。
 
-bq. *TIP:* ファイナライザは使うな。どうしても使う必要があるというなら、まず "Effective Java":http://books.google.co.jp/books?id=ka2VUBqHiWkC の項目7「ファイナライザを避ける」を必ず読みし、理解し、 _その上で_ ファイナライザは使うな。
+bq. *TIP:* ファイナライザは使うな。どうしても使う必要があるというなら、まず "Effective Java":http://books.google.co.jp/books?id=ka2VUBqHiWkC の項目7「ファイナライザを避ける」を必ず読み、理解し、 _その上で_ ファイナライザは使うな。
 (訳注:特にリソースの解放をファイナライザでやろうとすると、およそ期待通りには動作しないことが知られている。詳細は本文にもある通りEffective Javaを読むべし。)
 
 h2(#s7-javadoc). 7 Javadoc
